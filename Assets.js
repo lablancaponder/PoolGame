@@ -22,8 +22,8 @@ function loadAssets(callback) {
     };
     return spriteImage;
   }
-  sprites.background = loadSprites("tablebackground.jpg");
-  sprites.stick = loadSprites("stick.png");
+  sprites.background = loadSprites("tablebackground.png");
+  sprites.stick = loadSprites("spr_stick.png");
 
   assetsLoadingLoop(callback);
 }
