@@ -23,7 +23,8 @@ function loadAssets(callback) {
     return spriteImage;
   }
   sprites.background = loadSprites("tablebackground.png");
-  sprites.stick = loadSprites("spr_stick.png");
+  sprites.stick = loadSprites("stick.png");
+  sprites.whiteBall = loadSprites("spr_whiteBall.png");
 
   assetsLoadingLoop(callback);
 }
